@@ -14,10 +14,10 @@ type="text" class="inputCategory"><br/>
 <div data-id="purchases-total">Итого: 0</div>
 `;
 
-const purchaseAddFormEl = rootEl.querySelector('[data-id=purchase-add-form]');
+const purchaseAddFormEl = rootEl.querySelector('[data-id=purchase-add-form]')
 
-const purchaseInputAmountEl = purchaseAddFormEl.querySelector('[data-id=purchase-input-amount]');
-const purchaseInputCategoryEl = purchaseAddFormEl.querySelector('[data-id=purchase-input-category]');
+const purchaseInputAmountEl = purchaseAddFormEl.querySelector('[data-id=purchase-input-amount]')
+const purchaseInputCategoryEl = purchaseAddFormEl.querySelector('[data-id=purchase-input-category]')
 const purchaseAddButtonEl = purchaseAddFormEl.querySelector('[data-action=purchase-add]');
 
 const purchasesListEl = rootEl.querySelector('[data-id=purchases-list]');
