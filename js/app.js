@@ -8,7 +8,7 @@ type="text" >
     <label for="purchase-input-category"><h3>Категория</h3></label>
     <input id="purchase-input-category" data-id="purchase-input-category"
 type="text" class="inputCategory"><br/>
-    <button type="button" data-action="purchase-add" class="addBtn" style="margin: 15px;">Добавить</button>
+    <button type="button" data-action="purchase-add" class="add-Btn" style="margin: 15px;">Добавить</button>
 </form>
 <ul data-id="purchases-list" ></ul>
 <div data-id="purchases-total">Итого: 0</div>
